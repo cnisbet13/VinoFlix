@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96099C341A92FCA9001F03D4 /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 96099C331A92FCA9001F03D4 /* photo-frame.png */; };
+		9671FC7F1A018FEA00691115 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9671FC7E1A018FEA00691115 /* main.m */; };
+		9671FC821A018FEA00691115 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9671FC811A018FEA00691115 /* AppDelegate.m */; };
+		9671FC851A018FEA00691115 /* Rotten_Mangoes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9671FC831A018FEA00691115 /* Rotten_Mangoes.xcdatamodeld */; };
+		9671FC8B1A018FEA00691115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9671FC891A018FEA00691115 /* Main.storyboard */; };
+		9671FC8D1A018FEA00691115 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9671FC8C1A018FEA00691115 /* Images.xcassets */; };
+		9671FC901A018FEA00691115 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9671FC8E1A018FEA00691115 /* LaunchScreen.xib */; };
+		9671FC9C1A018FEA00691115 /* Rotten_MangoesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9671FC9B1A018FEA00691115 /* Rotten_MangoesTests.m */; };
+		9671FDBD1A02DCCB00691115 /* MasterCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9671FDBC1A02DCCB00691115 /* MasterCollectionViewController.m */; };
+		9671FDC31A02F29400691115 /* moviePhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9671FDC21A02F29400691115 /* moviePhotoCell.m */; };
+		9671FDF81A03119400691115 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9671FDF71A03119400691115 /* DetailViewController.m */; };
+		9671FE411A043BEC00691115 /* MapKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9671FE401A043BEC00691115 /* MapKitViewController.m */; };
+		9671FE431A04ADC100691115 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9671FE421A04ADC100691115 /* MapKit.framework */; };
+		967568991A95783F006536A4 /* rotten.png in Resources */ = {isa = PBXBuildFile; fileRef = 967568981A95783F006536A4 /* rotten.png */; };
+		9675689B1A95C77E006536A4 /* poster2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9675689A1A95C77E006536A4 /* poster2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9671FC961A018FEA00691115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9671FC711A018FEA00691115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9671FC781A018FEA00691115;
+			remoteInfo = "Rotten Mangoes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96099C331A92FCA9001F03D4 /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame.png"; sourceTree = "<group>"; };
+		9671FC791A018FEA00691115 /* Rotten Mangoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rotten Mangoes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9671FC7D1A018FEA00691115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9671FC7E1A018FEA00691115 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9671FC801A018FEA00691115 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9671FC811A018FEA00691115 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9671FC841A018FEA00691115 /* Rotten_Mangoes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rotten_Mangoes.xcdatamodel; sourceTree = "<group>"; };
+		9671FC8A1A018FEA00691115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9671FC8C1A018FEA00691115 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9671FC8F1A018FEA00691115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9671FC951A018FEA00691115 /* Rotten MangoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rotten MangoesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9671FC9A1A018FEA00691115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9671FC9B1A018FEA00691115 /* Rotten_MangoesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rotten_MangoesTests.m; sourceTree = "<group>"; };
+		9671FDBB1A02DCCB00691115 /* MasterCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterCollectionViewController.h; path = ../MasterCollectionViewController.h; sourceTree = "<group>"; };
+		9671FDBC1A02DCCB00691115 /* MasterCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterCollectionViewController.m; path = ../MasterCollectionViewController.m; sourceTree = "<group>"; };
+		9671FDC11A02F29400691115 /* moviePhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moviePhotoCell.h; sourceTree = "<group>"; };
+		9671FDC21A02F29400691115 /* moviePhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = moviePhotoCell.m; sourceTree = "<group>"; };
+		9671FDF61A03119400691115 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		9671FDF71A03119400691115 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		9671FE3F1A043BEC00691115 /* MapKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapKitViewController.h; sourceTree = "<group>"; };
+		9671FE401A043BEC00691115 /* MapKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapKitViewController.m; sourceTree = "<group>"; };
+		9671FE421A04ADC100691115 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		967568981A95783F006536A4 /* rotten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rotten.png; sourceTree = "<group>"; };
+		9675689A1A95C77E006536A4 /* poster2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poster2.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9671FC761A018FEA00691115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9671FE431A04ADC100691115 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9671FC921A018FEA00691115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96099C351A94A4DA001F03D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9671FDBB1A02DCCB00691115 /* MasterCollectionViewController.h */,
+				9671FDBC1A02DCCB00691115 /* MasterCollectionViewController.m */,
+				9671FDF61A03119400691115 /* DetailViewController.h */,
+				9671FDF71A03119400691115 /* DetailViewController.m */,
+				9671FE3F1A043BEC00691115 /* MapKitViewController.h */,
+				9671FE401A043BEC00691115 /* MapKitViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9671FC701A018FEA00691115 = {
+			isa = PBXGroup;
+			children = (
+				9671FE421A04ADC100691115 /* MapKit.framework */,
+				9671FC7B1A018FEA00691115 /* Rotten Mangoes */,
+				9671FC981A018FEA00691115 /* Rotten MangoesTests */,
+				9671FC7A1A018FEA00691115 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9671FC7A1A018FEA00691115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9671FC791A018FEA00691115 /* Rotten Mangoes.app */,
+				9671FC951A018FEA00691115 /* Rotten MangoesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9671FC7B1A018FEA00691115 /* Rotten Mangoes */ = {
+			isa = PBXGroup;
+			children = (
+				96099C351A94A4DA001F03D4 /* Views */,
+				9671FC891A018FEA00691115 /* Main.storyboard */,
+				967568981A95783F006536A4 /* rotten.png */,
+				9671FC8C1A018FEA00691115 /* Images.xcassets */,
+				9671FC8E1A018FEA00691115 /* LaunchScreen.xib */,
+				9671FC831A018FEA00691115 /* Rotten_Mangoes.xcdatamodeld */,
+				9675689A1A95C77E006536A4 /* poster2.jpg */,
+				9671FC7C1A018FEA00691115 /* Supporting Files */,
+			);
+			path = "Rotten Mangoes";
+			sourceTree = "<group>";
+		};
+		9671FC7C1A018FEA00691115 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9671FC801A018FEA00691115 /* AppDelegate.h */,
+				9671FC811A018FEA00691115 /* AppDelegate.m */,
+				9671FDC11A02F29400691115 /* moviePhotoCell.h */,
+				9671FDC21A02F29400691115 /* moviePhotoCell.m */,
+				96099C331A92FCA9001F03D4 /* photo-frame.png */,
+				9671FC7D1A018FEA00691115 /* Info.plist */,
+				9671FC7E1A018FEA00691115 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9671FC981A018FEA00691115 /* Rotten MangoesTests */ = {
+			isa = PBXGroup;
+			children = (
+				9671FC9B1A018FEA00691115 /* Rotten_MangoesTests.m */,
+				9671FC991A018FEA00691115 /* Supporting Files */,
+			);
+			path = "Rotten MangoesTests";
+			sourceTree = "<group>";
+		};
+		9671FC991A018FEA00691115 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9671FC9A1A018FEA00691115 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9671FC781A018FEA00691115 /* Rotten Mangoes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9671FC9F1A018FEA00691115 /* Build configuration list for PBXNativeTarget "Rotten Mangoes" */;
+			buildPhases = (
+				9671FC751A018FEA00691115 /* Sources */,
+				9671FC761A018FEA00691115 /* Frameworks */,
+				9671FC771A018FEA00691115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rotten Mangoes";
+			productName = "Rotten Mangoes";
+			productReference = 9671FC791A018FEA00691115 /* Rotten Mangoes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9671FC941A018FEA00691115 /* Rotten MangoesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9671FCA21A018FEA00691115 /* Build configuration list for PBXNativeTarget "Rotten MangoesTests" */;
+			buildPhases = (
+				9671FC911A018FEA00691115 /* Sources */,
+				9671FC921A018FEA00691115 /* Frameworks */,
+				9671FC931A018FEA00691115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9671FC971A018FEA00691115 /* PBXTargetDependency */,
+			);
+			name = "Rotten MangoesTests";
+			productName = "Rotten MangoesTests";
+			productReference = 9671FC951A018FEA00691115 /* Rotten MangoesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9671FC711A018FEA00691115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Calvin Nisbet";
+				TargetAttributes = {
+					9671FC781A018FEA00691115 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					9671FC941A018FEA00691115 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 9671FC781A018FEA00691115;
+					};
+				};
+			};
+			buildConfigurationList = 9671FC741A018FEA00691115 /* Build configuration list for PBXProject "Rotten Mangoes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9671FC701A018FEA00691115;
+			productRefGroup = 9671FC7A1A018FEA00691115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9671FC781A018FEA00691115 /* Rotten Mangoes */,
+				9671FC941A018FEA00691115 /* Rotten MangoesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9671FC771A018FEA00691115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967568991A95783F006536A4 /* rotten.png in Resources */,
+				96099C341A92FCA9001F03D4 /* photo-frame.png in Resources */,
+				9671FC8B1A018FEA00691115 /* Main.storyboard in Resources */,
+				9671FC901A018FEA00691115 /* LaunchScreen.xib in Resources */,
+				9671FC8D1A018FEA00691115 /* Images.xcassets in Resources */,
+				9675689B1A95C77E006536A4 /* poster2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9671FC931A018FEA00691115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9671FC751A018FEA00691115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9671FC851A018FEA00691115 /* Rotten_Mangoes.xcdatamodeld in Sources */,
+				9671FDBD1A02DCCB00691115 /* MasterCollectionViewController.m in Sources */,
+				9671FDC31A02F29400691115 /* moviePhotoCell.m in Sources */,
+				9671FE411A043BEC00691115 /* MapKitViewController.m in Sources */,
+				9671FC821A018FEA00691115 /* AppDelegate.m in Sources */,
+				9671FC7F1A018FEA00691115 /* main.m in Sources */,
+				9671FDF81A03119400691115 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9671FC911A018FEA00691115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9671FC9C1A018FEA00691115 /* Rotten_MangoesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9671FC971A018FEA00691115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9671FC781A018FEA00691115 /* Rotten Mangoes */;
+			targetProxy = 9671FC961A018FEA00691115 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9671FC891A018FEA00691115 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9671FC8A1A018FEA00691115 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9671FC8E1A018FEA00691115 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9671FC8F1A018FEA00691115 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9671FC9D1A018FEA00691115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9671FC9E1A018FEA00691115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9671FCA01A018FEA00691115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rotten Mangoes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9671FCA11A018FEA00691115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rotten Mangoes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9671FCA31A018FEA00691115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rotten MangoesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rotten Mangoes.app/Rotten Mangoes";
+			};
+			name = Debug;
+		};
+		9671FCA41A018FEA00691115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rotten MangoesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rotten Mangoes.app/Rotten Mangoes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9671FC741A018FEA00691115 /* Build configuration list for PBXProject "Rotten Mangoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9671FC9D1A018FEA00691115 /* Debug */,
+				9671FC9E1A018FEA00691115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9671FC9F1A018FEA00691115 /* Build configuration list for PBXNativeTarget "Rotten Mangoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9671FCA01A018FEA00691115 /* Debug */,
+				9671FCA11A018FEA00691115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9671FCA21A018FEA00691115 /* Build configuration list for PBXNativeTarget "Rotten MangoesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9671FCA31A018FEA00691115 /* Debug */,
+				9671FCA41A018FEA00691115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9671FC831A018FEA00691115 /* Rotten_Mangoes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9671FC841A018FEA00691115 /* Rotten_Mangoes.xcdatamodel */,
+			);
+			currentVersion = 9671FC841A018FEA00691115 /* Rotten_Mangoes.xcdatamodel */;
+			path = Rotten_Mangoes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9671FC711A018FEA00691115 /* Project object */;
+}
