@@ -14,7 +14,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *titleLabel;
 @property (strong, nonatomic) IBOutlet UILabel *castLabel;
 
-@property (strong, nonatomic) IBOutlet UILabel *ratingLabel;
 @property (strong, nonatomic) IBOutlet UILabel *synopsis;
 @property (strong, nonatomic) IBOutlet UILabel *runtimeLabel;
 

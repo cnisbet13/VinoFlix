@@ -39,11 +39,11 @@
 -(void)configureView
 {
     self.synopsis.text = [self.movieChosen objectForKey:@"synopsis"];
-    self.titleLabel.text = [self.movieChosen objectForKey:@"title"];
+    self.titleLabel.text = [self.movieChosen objectForKey:@"year"];
     self.movieImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[[self.movieChosen objectForKey:@"posters"] objectForKey:@"detailed"]]]];
-    self.ratingLabel = [[self.movieChosen objectForKey:@"ratings"] objectForKey:@"audience_rating"];
-  //  self.runtimeLabel.text = [self.movieChosen objectForKey:@"runtime"];
-    
+    self.runtimeLabel.text = [self.movieChosen valueForKey:@"mpaa_rating"];
+    self.castLabel = [self.movieChosen objectForKey:@"runtime"];
+    NSLog(@"Characters: %@", [self.movieChosen objectForKey:@"runtime"]);
 
 
 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CB76265A-BBAF-404E-AFB7-9E3BD7BA9CD9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Rotten Mangoes</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>38246B888C544E339D278B80629FF227C9D06CC6</key>
+		<string>https://github.com/cnisbet13/VinoFlix.git</string>
+		<key>8F41B4E3B45357F56988EF89B83EB7E9F4DBA817</key>
+		<string>https://github.com/cnisb044/Bill-Splitter.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Rotten Mangoes.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>38246B888C544E339D278B80629FF227C9D06CC6</key>
+		<string>../..</string>
+		<key>8F41B4E3B45357F56988EF89B83EB7E9F4DBA817</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cnisbet13/VinoFlix.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>38246B888C544E339D278B80629FF227C9D06CC6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8F41B4E3B45357F56988EF89B83EB7E9F4DBA817</string>
+			<key>IDESourceControlWCCName</key>
+			<string>..</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>38246B888C544E339D278B80629FF227C9D06CC6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VinoFlix</string>
+		</dict>
+	</array>
+</dict>
+</plist>

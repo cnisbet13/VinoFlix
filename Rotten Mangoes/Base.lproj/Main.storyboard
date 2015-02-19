@@ -111,12 +111,6 @@
                                     <constraint firstAttribute="height" constant="100" id="635-eD-6UD"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Rating" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oul-g2-MU5">
-                                <rect key="frame" x="453" y="149" width="51" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Runtime" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FpQ-Tz-hCR">
                                 <rect key="frame" x="475" y="266" width="50" height="25"/>
                                 <constraints>
@@ -134,15 +128,11 @@
                             <constraint firstAttribute="centerX" secondItem="uxJ-9g-IFp" secondAttribute="centerX" id="0j3-Op-gXv"/>
                             <constraint firstAttribute="centerX" secondItem="Cic-gR-WAH" secondAttribute="centerX" id="5v7-qE-DuV"/>
                             <constraint firstAttribute="centerY" secondItem="FpQ-Tz-hCR" secondAttribute="centerY" id="8qc-Du-rK6"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="oul-g2-MU5" secondAttribute="trailing" constant="80" id="ECz-31-qBR"/>
                             <constraint firstAttribute="centerY" secondItem="62e-ga-2iQ" secondAttribute="centerY" constant="-0.5" id="F4J-PI-0pC"/>
                             <constraint firstItem="Cic-gR-WAH" firstAttribute="top" secondItem="62e-ga-2iQ" secondAttribute="bottom" constant="10" id="IaX-pZ-Ibk"/>
-                            <constraint firstItem="oul-g2-MU5" firstAttribute="centerX" secondItem="LxX-5q-5PA" secondAttribute="centerX" id="L92-Tk-VDX"/>
                             <constraint firstAttribute="centerX" secondItem="FpQ-Tz-hCR" secondAttribute="centerX" multiplier="0.6" id="k1u-Gs-T4g"/>
                             <constraint firstAttribute="centerX" secondItem="6Ij-uh-kxO" secondAttribute="centerX" id="kGS-2D-Fal"/>
-                            <constraint firstItem="oul-g2-MU5" firstAttribute="top" secondItem="LxX-5q-5PA" secondAttribute="bottom" constant="8" symbolic="YES" id="l7U-77-WOS"/>
                             <constraint firstItem="LxX-5q-5PA" firstAttribute="leading" secondItem="uxJ-9g-IFp" secondAttribute="trailing" constant="47" id="oPW-QN-d9M"/>
-                            <constraint firstItem="oul-g2-MU5" firstAttribute="leading" secondItem="uxJ-9g-IFp" secondAttribute="trailing" constant="72" id="rkT-Xn-4Qs"/>
                             <constraint firstItem="6Ij-uh-kxO" firstAttribute="top" secondItem="Cic-gR-WAH" secondAttribute="bottom" constant="11" id="txS-ue-GSp"/>
                             <constraint firstAttribute="centerY" secondItem="uxJ-9g-IFp" secondAttribute="centerY" multiplier="1.9" id="u7F-mi-Hbn"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LxX-5q-5PA" secondAttribute="trailing" constant="56" id="vXR-r9-uAE"/>
@@ -157,7 +147,6 @@
                     <connections>
                         <outlet property="castLabel" destination="Cic-gR-WAH" id="bIk-jZ-tBs"/>
                         <outlet property="movieImage" destination="uxJ-9g-IFp" id="Z1e-ws-XdJ"/>
-                        <outlet property="ratingLabel" destination="oul-g2-MU5" id="MMQ-YL-gV7"/>
                         <outlet property="runtimeLabel" destination="FpQ-Tz-hCR" id="PCJ-ne-5y2"/>
                         <outlet property="synopsis" destination="6Ij-uh-kxO" id="31m-rZ-fEK"/>
                         <outlet property="titleLabel" destination="62e-ga-2iQ" id="Rz3-Su-Esv"/>

@@ -38,7 +38,7 @@ static NSString * const reuseIdentifier = @"Cell";
                 
                 NSDictionary *dataDictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
                 NSLog (@"%@", dataDictionary);
-                NSDictionary *movies = [dataDictionary objectForKey:@"movies"];
+                NSArray *movies = [dataDictionary objectForKey:@"movies"];
                 self.movieInfoArray = movies;
                 
                 
