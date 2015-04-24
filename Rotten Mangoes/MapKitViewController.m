@@ -10,7 +10,7 @@
 #import "MasterCollectionViewController.h"
 
 
-@interface MapKitViewController () <UITableViewDelegate, UITableViewDataSource>
+@interface MapKitViewController () <UITableViewDelegate, UITableViewDataSource, MKMapViewDelegate>
 
 
 @end

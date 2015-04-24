@@ -36,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		96099C331A92FCA9001F03D4 /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-frame.png"; sourceTree = "<group>"; };
+		963F62E81AA86672006CEBAF /* NSObject_adfsaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject_adfsaf.h; sourceTree = "<group>"; };
 		9671FC791A018FEA00691115 /* Rotten Mangoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rotten Mangoes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9671FC7D1A018FEA00691115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9671FC7E1A018FEA00691115 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,6 +97,7 @@
 		9671FC701A018FEA00691115 = {
 			isa = PBXGroup;
 			children = (
+				963F62E81AA86672006CEBAF /* NSObject_adfsaf.h */,
 				9671FE421A04ADC100691115 /* MapKit.framework */,
 				9671FC7B1A018FEA00691115 /* Rotten Mangoes */,
 				9671FC981A018FEA00691115 /* Rotten MangoesTests */,

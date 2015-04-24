@@ -11,13 +11,16 @@
 @interface DetailViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UIImageView *movieImage;
-@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
-@property (strong, nonatomic) IBOutlet UILabel *castLabel;
+@property (strong, nonatomic) IBOutlet UILabel *movieTitle;
+@property (strong, nonatomic) IBOutlet UILabel *movieCast;
 
-@property (strong, nonatomic) IBOutlet UILabel *synopsis;
-@property (strong, nonatomic) IBOutlet UILabel *runtimeLabel;
+@property (strong, nonatomic) IBOutlet UITextView *movieSynopsis;
+@property (strong, nonatomic) IBOutlet UILabel *movieRuntime;
+@property (strong, nonatomic) IBOutlet UILabel *movieRating;
 
+@property (strong, nonatomic) IBOutlet UILabel *releaseDate;
 @property (nonatomic, strong) NSDictionary *movieChosen;
+@property (nonatomic, strong) NSArray *cast;
 //
 //
 //

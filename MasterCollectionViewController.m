@@ -34,23 +34,14 @@ static NSString * const reuseIdentifier = @"Cell";
                                 NSURLResponse *response,
                                 NSError *error) {
                 
-                // handle response
-                
                 NSDictionary *dataDictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
-                NSLog (@"%@", dataDictionary);
                 NSArray *movies = [dataDictionary objectForKey:@"movies"];
                 self.movieInfoArray = movies;
-                
-                
                 dispatch_async(dispatch_get_main_queue(), ^(){
                     //Add method, task you want perform on mainQueue
                     //Control UIView, IBOutlet all here
                     [self.collectionView reloadData];
-                    
                 });
-                
-                
-                
             }] resume];
         
 }
@@ -88,11 +79,14 @@ static NSString * const reuseIdentifier = @"Cell";
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     moviePhotoCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
     
-    // Configure the cell
-   // cell.backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"photo-frame.png"]];
     cell.moviePhotos.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:
-                                                     [NSURL URLWithString:[[self.movieInfoArray[indexPath.item] objectForKey:@"posters"] objectForKey:@"detailed"]]]];
-    cell.titleLabel.text = [self.movieInfoArray[indexPath.item]objectForKey:@"title"];
+                                                     [NSURL URLWithString:[[self.movieInfoArray[indexPath.item]
+                                                                            objectForKey:@"posters"]
+                                                                           objectForKey:@"original"]]]];
+    
+    
+    cell.titleLabel.text = [self.movieInfoArray[indexPath.item]
+                            objectForKey:@"title"];
     
     return cell;
 }
@@ -105,12 +99,15 @@ static NSString * const reuseIdentifier = @"Cell";
         NSIndexPath *indexPath = [[self.collectionView indexPathsForSelectedItems] lastObject];
         NSDictionary *selectedMovie = self.movieInfoArray[indexPath.item];
         [[segue destinationViewController] setMovieChosen:selectedMovie];
-    } else if ([segue.identifier isEqualToString:@"showMapView"]) {
-        NSIndexPath *indexPath = [[self.collectionView indexPathsForSelectedItems] lastObject];
-        NSDictionary *selectedMovie = self.movieInfoArray[indexPath.item];
-        [[segue destinationViewController] setMovieChosen:selectedMovie];
+        
     }
+        //    } else if ([segue.identifier isEqualToString:@"showMapView"]) {
+//        NSIndexPath *indexPath = [[self.collectionView indexPathsForSelectedItems] lastObject];
+//        NSDictionary *selectedMovie = self.movieInfoArray[indexPath.item];
+//        [[segue destinationViewController] setMovieChosen:selectedMovie];
+//    }
 }
+
 
 
 #pragma mark <UICollectionViewDelegate>
